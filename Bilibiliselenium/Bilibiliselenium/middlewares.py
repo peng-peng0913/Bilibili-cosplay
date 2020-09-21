@@ -46,10 +46,3 @@ class UserAgentMiddleware():
         request.headers['User-Agent'] = random.choice(self.user_agents)
 
 
-#class ProxyMiddleware():
-#   def __init__(self, proxy_url):
-#        self.logger = getLogger(__name__)
-#        self.proxy_url = proxy_url
-
-#    def process_request(self, request, spider):
-        
