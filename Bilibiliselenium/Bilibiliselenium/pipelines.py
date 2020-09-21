@@ -1,6 +1,9 @@
 from itemadapter import ItemAdapter
 import pymysql
 
+#本通道将数据写入华为云MySQL
+#Pipelines writes data to Huawei cloud MySQL
+
 
 class BilibiliseleniumMySQLPipeline():
     def __init__(self, host, database, user, password, port):
