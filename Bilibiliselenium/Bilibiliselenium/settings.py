@@ -89,12 +89,12 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-MAX_PAGE = 50
+MAX_PAGE = 50        #Bilibili cosplay专栏最大页数为50
 
-SELENIUM_TIMEOUT = 120
+SELENIUM_TIMEOUT = 120     #Selenium等待时间设置
 
-MYSQL_HOST = '139.9.107.60'
-MYSQL_DATABASE = 'cosplay'
-MYSQL_USER = 'root'
-MYSQL_PASSWORD = 'Psc123456'
-MYSQL_PORT = 3306
+MYSQL_HOST = '***.*.***.**'  #MySQL IP地址      (需根据用户MySQL进行设置)
+MYSQL_DATABASE = 'cosplay'   #MySQL库名
+MYSQL_USER = '****'          #MySQL用户名
+MYSQL_PASSWORD = '****'      #MySQL用户密码
+MYSQL_PORT = 0000            #MySQL端口号
